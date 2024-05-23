@@ -10,5 +10,7 @@ while(!(isValidNumber($n))) {
     $n = readline("Sobre qué número quieres calcular?");
 }
 
+$file = fopen("calculos_".$n.".txt",'w');
+
 
 ?>
