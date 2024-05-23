@@ -1,2 +1,4 @@
 Número: 3
 Quadrat: 9
+Cube: 27
+Factorial: 6

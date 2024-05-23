@@ -15,6 +15,21 @@ function writeSquare($file, int $n): void {
     fwrite($file,"Quadrat: ".$square.PHP_EOL);
 }
 
+function writeCube($file, int $n): void {
+    $cube = $n**3;
+    fwrite($file,"Cube: ".$cube.PHP_EOL);
+}
+
+function writeFactorial($file,int $n): void {
+    $factorial = getFactorial($n);
+    fwrite($file,"Factorial: ".$factorial.PHP_EOL);
+}
+
+function getFactorial(int $n): int {
+    if($n == 0) return 1;
+    else return $n*getFactorial($n-1);
+}
+
 
 $n = readline("Sobre qué número quieres calcular?");
 while(!(isValidNumber($n))) {
@@ -25,7 +40,8 @@ while(!(isValidNumber($n))) {
 $file = getNewFile($n);
 
 writeSquare($file,(int)$n);
-
+writeCube($file,(int)$n);
+writeFactorial($file,(int)$n)
 
 
 ?>

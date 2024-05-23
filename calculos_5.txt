@@ -1,1 +1,4 @@
 Número: 5
+Quadrat: 25
+Cube: 125
+Factorial: 120
