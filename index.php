@@ -41,7 +41,8 @@ $file = getNewFile($n);
 
 writeSquare($file,(int)$n);
 writeCube($file,(int)$n);
-writeFactorial($file,(int)$n)
+writeFactorial($file,(int)$n);
 
+fclose($file);
 
 ?>

@@ -1,0 +1,4 @@
+Número: 4
+Quadrat: 16
+Cube: 64
+Factorial: 24
