@@ -1,0 +1,2 @@
+Número: 3
+Quadrat: 9
